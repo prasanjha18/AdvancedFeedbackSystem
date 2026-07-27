@@ -11,7 +11,7 @@ export default function FeedbackForm() {
     setStatus('Submitting...');
     try {
       await axios.post('https://advancedfeedbacksystem.onrender.com/api/feedback', { review });
-      setStatus('Thank you for your feedback! 🌟');
+      setStatus('Thank you for your feedback!');
       setReview('');
     } catch (error) {
       setStatus('Failed to submit. Please try again.');
@@ -27,7 +27,7 @@ export default function FeedbackForm() {
           to="/login" 
           className="px-5 py-2.5 rounded-full bg-white/70 backdrop-blur-md shadow-sm border border-white/50 text-purple-700 font-bold hover:bg-white hover:shadow-md hover:scale-105 transition-all duration-300"
         >
-          🔒 Admin Login
+          Admin Login
         </Link>
       </div>
 
@@ -52,7 +52,7 @@ export default function FeedbackForm() {
           type="submit" 
           className="w-full bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold text-lg py-3 px-4 rounded-2xl shadow-lg hover:shadow-xl hover:opacity-90 transform active:scale-95 transition-all"
         >
-          ✨ Submit Review
+           Submit Review
         </button>
         
         {status && (

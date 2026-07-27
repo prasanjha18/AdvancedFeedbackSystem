@@ -15,7 +15,7 @@ export default function Login() {
       localStorage.setItem('adminToken', res.data.access_token);
       navigate('/dashboard');
     } catch (err) {
-      setError('Invalid credentials 🚫');
+      setError('Invalid credentials');
     }
   };
 
@@ -56,7 +56,7 @@ export default function Login() {
         />
         
         <button type="submit" className="w-full bg-gradient-to-r from-indigo-600 to-purple-500 text-white font-bold text-lg py-3 rounded-2xl shadow-lg hover:shadow-xl hover:opacity-90 transform active:scale-95 transition-all">
-          Secure Login 🔐
+          Secure Login
         </button>
       </form>
     </div>

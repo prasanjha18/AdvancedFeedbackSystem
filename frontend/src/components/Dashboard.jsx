@@ -45,7 +45,7 @@ export default function Dashboard() {
           onClick={handleLogout}
           className="px-5 py-2.5 rounded-full bg-white/70 backdrop-blur-md shadow-sm border border-red-100 text-red-600 font-bold hover:bg-red-50 hover:text-red-700 hover:shadow-md hover:scale-105 transition-all duration-300"
         >
-          Logout 👋
+          Logout 
         </button>
       </div>
 
@@ -67,7 +67,7 @@ export default function Dashboard() {
               <p className="text-xl font-medium text-gray-800 mb-4">{fb.rawText}</p>
               {fb.requiresAction && (
                 <span className="bg-red-100 text-red-800 text-xs font-extrabold px-3 py-1.5 rounded-full animate-pulse shadow-sm">
-                  ⚠️ URGENT ACTION
+                   URGENT ACTION
                 </span>
               )}
             </div>
