@@ -2,8 +2,6 @@
 
 ## Live Demo
 * **Customer Feedback Form:** [https://advanced-feedback-system.vercel.app](https://advanced-feedback-system.vercel.app)
-* **Admin Login Panel:** [https://advanced-feedback-system.vercel.app/login](https://advanced-feedback-system.vercel.app/login)
-* **Live Admin Dashboard:** [https://advanced-feedback-system.vercel.app/dashboard](https://advanced-feedback-system.vercel.app/dashboard)
 * **Backend API (Render):** [https://advancedfeedbacksystem.onrender.com](https://advancedfeedbacksystem.onrender.com)
 
 ---
