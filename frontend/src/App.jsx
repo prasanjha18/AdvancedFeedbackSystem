@@ -6,7 +6,8 @@ import Dashboard from './components/Dashboard';
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-gray-50 text-gray-800">
+      {/* Replaced plain bg-gray-50 with a beautiful vibrant gradient */}
+      <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100 text-gray-800 font-sans selection:bg-purple-300">
         <Routes>
           <Route path="/" element={<FeedbackForm />} />
           <Route path="/login" element={<Login />} />
